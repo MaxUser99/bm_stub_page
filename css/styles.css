@@ -1,0 +1,101 @@
+body, html {
+  height: 100%; }
+body {
+  font-family: Montserrat;
+  color: white;
+  background-color: #2D48FF;
+  background-image: url(../assets/background.png);
+  background-size: cover;
+  background-position: center; }
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 400;
+}
+/* left upper corner */
+.position-lu {
+  position: absolute;
+  left: 9%;
+  top: 6.15% }
+/* right upper corner */
+.position-ru {
+  position: absolute;
+  right: 9%;
+  top: 6.15% }
+/* left down corner */
+.position-ld {
+  position: absolute;
+  left: 9%;
+  bottom: 6.15%; }
+/* right down corner */
+.position-rd {
+  position: absolute;
+  right: 9%;
+  bottom: 6.15% }
+.text-container {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  min-width: 10.85%; }
+.i.social {
+  padding: 0 3.9vw;
+  position: relative; }
+.i.margin-right {
+  margin-right: 16px; }
+.divider-vertical {
+  width: 1px;
+  height: 22px;
+  background-color: white; }
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: 24%;
+  min-width: 330px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%); }
+.logo-container .logo {
+    width: 100%;
+    /* height: 532px; */
+    height: 49.25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-container .logo .rectangle {
+  position: absolute;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  background-image: url(../assets/Rectangle-outter.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.logo-container h3 {
+  font-size: 35.1765px;
+  line-height: 35px;
+  margin: 34px 0; }
+.logo-container h2 {
+  font-size: 38px;
+  line-height: 48px; }
+@media screen and (max-width: 1440px) {
+  .text-container {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .logo-container h3 {
+    font-size: 23.678px;
+    line-height: 24px;
+  }
+  .logo-container h2 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+};
