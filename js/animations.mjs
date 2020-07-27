@@ -118,7 +118,7 @@ function initializeTexture() {
   const img = new Image();
   img.onload = () => (texture.image = img);
   img.crossOrigin = "Anonymous";
-  img.src = "../assets/background.png";
+  img.src = "assets/background.png";
 
   return texture;
 }
